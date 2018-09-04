@@ -6,7 +6,7 @@ class EzprogressbarConan(ConanFile):
     version = "2.1.1"
     license = "MIT"
     author = "Darlan Cavalcante Moreira (darcamo@gmail.com)"
-    url = "https://github.com/darcamo/conan-recipes"
+    url = "https://github.com/darcamo/conan-ezprogressbar"
     description = "Provides some simple headers for progress bars in software"
     no_copy_source = True
     homepage = "https://github.com/spaulaus/ezprogressbar"
