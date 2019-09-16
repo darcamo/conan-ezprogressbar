@@ -1,4 +1,4 @@
-from conans import ConanFile, CMake, tools
+from conans import CMake, ConanFile, tools
 
 
 class EzprogressbarConan(ConanFile):
@@ -21,3 +21,6 @@ class EzprogressbarConan(ConanFile):
 
     def package(self):
         self.copy("ez*.hpp", dst="include/ezProgressBar", src="ezprogressbar")
+
+    def package_id(self):
+        self.info.header_only()
